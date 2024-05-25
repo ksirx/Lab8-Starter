@@ -46,14 +46,14 @@ function initializeServiceWorker() {
   // sw.js is executed.
   // B1. TODO - Check if 'serviceWorker' is supported in the current browser
   if('serviceWorker' in navigator) {
-    
+
     // B2. TODO - Listen for the 'load' event on the window object.
     window.addEventListener('load', function() {
       // Steps B3-B6 will be *inside* the event listener's function created in B2
       try {
         // B3. TODO - Register './sw.js' as a service worker (The MDN article
         //            "Using Service Workers" will help you here)
-        const registration = navigator.serviceWorker.register("/sw.js", {
+        const registration = navigator.serviceWorker.register("./sw.js", {
           scope: "/",
         });
 
