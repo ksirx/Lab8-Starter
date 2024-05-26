@@ -1,9 +1,9 @@
 {
     "name": "Lab8-Starter",
     "short_name": "Xavier",
-    "description": "",
-    "start_url": "",
-    "display": "browser",
+    "description": "testng the service workers",
+    "start_url": "https://ksirx.github.io/Lab8-Starter/",
+    "display": "fullscreen",
     "background_color": "white",
     "theme_color": "green",
     "icons": [
