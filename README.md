@@ -1,5 +1,7 @@
 # Lab8-Starter
 
+Name: Xavier Navarro
+
 https://ksirx.github.io/Lab8-Starter/
 
 How are graceful degradation and service workers related?
